@@ -1,385 +1,232 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Tonja Rantanen 2021">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="style.css">
-
-    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    <link rel="icon" href="cropped-logofica.png" type="png"sizes="40x35">
 
     <title>Fica Helsinki</title>
 
+    
 </head>
 <body>
-    
-    
-        
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light uppermenu">
+
+
+
+    <header>
+
+          <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
             <div class="container-fluid">
 
-                <img src="cropped-logofica.png" class="mx-auto d-block pt-5 mb-5" width="130px;" height="auto;" alt="logo">
-              <!--  <a class="navbar-brand" href="#">Logo</a>-->
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
-              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="linktext active linktext" aria-current="page" href="#etusivu">etusivu</a>
-                  <a class="linktext" href="#fica helsinki">fica helsinki</a>
-                  <a class="linktext" href="#capoiera angola">capoeira angola</a>
-                  <a class="linktext" href="#kuvagalleria">kuvagalleria</a>
-                  <a class="linktext" href="#treenit">treenit</a>
-                  <a class="linktext disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    
-
-    
-<!-- Tästä alkaa navbar -->
-
-    <div class="wrapper fixed-top">
-
-        <nav id="sidebar">
-                <!-- Sidebar Header -->
-            <div class="sidebar-header">
-                <img src="cropped-logofica.png" class="mx-auto d-block pt-5" width="140px;" height="auto;" alt="logo">
-                    
-            </div>
-    
-                <!-- Sidebar Links -->
-                <ul class="list-unstyled components">
-                    <!--  
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li>  Link with dropdowns items
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li><a href="#">Page</a></li>
-                            <li><a href="#">Page</a></li>
-                            <li><a href="#">Page</a></li>
-                        </ul>
-                    -->
-                    <li><a href="#etusivu">etusivu</a></li>
-                    <li><a href="#fica helsinki">fica helsinki</a></li>
-                    <li><a href="#capoeira angola">capoeira angola</a></li>
-                    <li><a href="#kuvagalleria">kuvagalleria</a></li>
-                    <li><a href="#treenit">treenit</a></li>
-                    </ul>
-    
-                <!--      <div class="icon p-5">
-                        <a href="https://fi-fi.facebook.com/groups/44118397001/" ><i class="pe-3 fab fa-facebook-f"></i></a> 
-                        <a href="https://www.instagram.com/ficahelsinki/?hl=en"><i class=" fab fa-instagram"></i></a> 
-                    </div>-->
-        </nav>
-    </div> 
-
-<!-- Tähän loppuu navbar -->
-         
-            <!-- <div id="content">
-                <button type="button" id="sidebarCollapse" class="navbar-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div> -->
-        
-<!-- Tästä alkaa video -->
-
-        
-            <section class="page-section" id="etusivu">
-                <div class="container-fluid">
-                    <div class="video" style="position: relative;">
-                       <video width="100%" controls autoplay loop muted>
-                          <source src="capoeira fica helsinki.mp4"  type="video/mp4">
-                       </video>
-    
-                    <!--  
-                    <div class="ficahelsinki px-5">
-                    <h1>Fica Helsinki</h1>
-                    <p>FICA Helsinki on Helsingissä toimiva Capoeira Angola ryhmä. Ryhmä toimi aikaisemmin nimellä Grupo de Capoeira Angola Helsinki. Vuonna 2004 ryhmä aloitti yhteistyön Mestre Valmirin (FICA-Bahia) kanssa. Yhteistyön tuloksena ryhmä liittyi FICAan (Fundação Internacional de Capoeira Angola) syksyllä 2008. Ryhmän opettajana toimii Treinel Tapani Suihkonen, joka on aloitti Capoeira Angolan harjoittelun vuonna 1997.
-                        FICA Helsinki järjestää Capoeira Angolan opetusta ja avoimia workshoppeja kaikille lajista kiinnostuneille.</p>
-                    </div>
-
-                    -->
-                    </div>
+                <a class="navbar-brand py-4" href="#"></a>
                   
-                </div>
-            </section> 
+                <a href="#"><img src="cropped-logofica.png" width="mx-auto" height="130" alt="logo" loading="lazy" 
+                 style="margin-top: 15px; margin-bottom: 15px; margin-left: 40px;"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#navbarCustom" aria-controls="navbarNavDropdown" aria-expanded="false" 
+                  aria-label="Toggle navigation">
+                  <!--  <span class="navbar-toggler-icon"></span> --> 
+                  <i class="fas fa-bars" style="color: #323232;"></i>
+                </button>
+
+              <div class="collapse navbar-collapse" id="navbarCustom">
+                
+                  <ul class="navbar-nav">
+                    <!-- <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#etusivu">Etusivu</a>
+                    </li> -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#capoeiraangola">Capoeira Angola</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#ficahelsinki">Fica Helsinki</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#fica">Fica</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#mestret">Mestret</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#kuvagalleria">Galleria</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#treenit">Treenit</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#yhteystiedot">Ota yhteyttä</a>
+                    </li>
+                  </ul>
+
+                  <a href="index.html"><img src="finnish.png" width="mx-auto" height="20" alt="logo" loading="lazy" 
+                    style="margin-top: 15px; margin-bottom: 15px; margin-right: 10px; margin-left: 15px;"></a>
     
-        
+                  <a href="index_engl.html"><img src="english.png" width="mx-auto" height="20" alt="logo" loading="lazy" 
+                    style="margin-top: 15px; margin-bottom: 15px; margin-right: 10px; margin-left: 15px;"></a>
 
-<!-- Tähän loppuu video -->
+              </div>
+           
+            </div>
+          </nav> 
+ 
+    </header>
 
-<!-- Tästä alkaa Fica Helsinki teksti -->
-
-            <section class="page-section" id="fica helsinki">
-                <div class="container-fluid">
-                    <div class="row justify-content-center">
-
-                        <div class="col-8">
-                            <h1>Fica Helsinki</h1>
-                            <p>FICA Helsinki on Helsingissä toimiva Capoeira Angola ryhmä. Ryhmä toimi aikaisemmin nimellä Grupo de Capoeira Angola Helsinki. Vuonna 2004 ryhmä aloitti yhteistyön Mestre Valmirin (FICA-Bahia) kanssa. Yhteistyön tuloksena ryhmä liittyi FICAan (Fundação Internacional de Capoeira Angola) syksyllä 2008. Ryhmän opettajana toimii Treinel Tapani Suihkonen, joka on aloitti Capoeira Angolan harjoittelun vuonna 1997.
-                               FICA Helsinki järjestää Capoeira Angolan opetusta ja avoimia workshoppeja kaikille lajista kiinnostuneille. </p>
-                        </div>
-
-                    </div>
-                </div>
+  <!-- /.container-fluid -->
 
 
-            </section>
+ 
+   
+    <section class="page-section" id="capoeiraangola">
+        <div class="container-fluid">
 
-<!-- Tähän loppuu Fica Helsinki teksti -->
+            <div class="video" style="position: relative;">
 
+              <video autoplay="" muted="" loop="" playsinline="" id="vid" preload="auto" width="106%" height="106%">
 
+              <source src="capoeira fica helsinki.mp4" type="video/mp4"></video>
 
-<!-- Tästä alkaa Capoiera Angola, Maestro Valmis + ehkä jotain mutta/kuva ja teksti -->
+               <!--   <video width="106%" controls autoplay loop muted></video>-->
 
-            <section class="page-section" id="capoiera angola">
-                <div class="container">
+            </div>
+        </div>
+    </section>
 
-                        <div class="row">
-                             <div class="col-6 mt-5">
-                                <img class="img-fluid" src="IMG_5537.jpg" class="img-fluid" alt="etusivu" width="auto" height="auto">
-                            </div>
-
-                            <div class="col-6 mt-5">
-     <!--                    <div class="row">--> 
-                                <h1>Capoeira Angola</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit ligula, pretium at consequat eu, 
-                                    suscipit a nulla. Duis nec dolor imperdiet, dapibus lorem vel, dictum ipsum. Proin dictum, 
-                                    risus vel lacinia tempor, risus lectus porttitor tortor, id mollis dolor ex in nunc. Vestibulum 
-                                    placerat sodales venenatis.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit ligula, pretium at consequat eu, 
-                                    suscipit a nulla. Duis nec dolor imperdiet, dapibus lorem vel, dictum ipsum. Proin dictum, 
-                                    risus vel lacinia tempor, risus lectus porttitor tortor, id mollis dolor ex in nunc. Vestibulum 
-                                    placerat sodales venenatis.</p>
-                            </div>
-
-                        
-
-                            <div class="col-6 mt-5">
-           <!--              <div class="row">--> 
-                                <h1>Maestro xxx</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit ligula, pretium at consequat eu, 
-                                    suscipit a nulla. Duis nec dolor imperdiet, dapibus lorem vel, dictum ipsum. Proin dictum, 
-                                    risus vel lacinia tempor, risus lectus porttitor tortor, id mollis dolor ex in nunc. Vestibulum 
-                                    placerat sodales venenatis.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit ligula, pretium at consequat eu, 
-                                    suscipit a nulla. Duis nec dolor imperdiet, dapibus lorem vel, dictum ipsum. Proin dictum, 
-                                    risus vel lacinia tempor, risus lectus porttitor tortor, id mollis dolor ex in nunc. Vestibulum 
-                                    placerat sodales venenatis.</p>
-                            </div>
-
-                            <div class="col-6 mt-5">
-                                <img class="img-fluid" src="IMG_5469.jpg" class="img-fluid" alt="etusivu" width="auto" height="auto">
-                            </div>
-
-                            <div class="col-6 mt-5">
-                                <img class="img-fluid" src="IMG_3964.jpg" class="img-fluid" alt="etusivu" width="auto" height="auto">
-                            </div>
-
-                            <div class="col-6 mt-5">
-     <!--                    <div class="row">--> 
-                                <h1>Lorem Ipsum</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit ligula, pretium at consequat eu, 
-                                    suscipit a nulla. Duis nec dolor imperdiet, dapibus lorem vel, dictum ipsum. Proin dictum, 
-                                    risus vel lacinia tempor, risus lectus porttitor tortor, id mollis dolor ex in nunc. Vestibulum 
-                                    placerat sodales venenatis.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit ligula, pretium at consequat eu, 
-                                    suscipit a nulla. Duis nec dolor imperdiet, dapibus lorem vel, dictum ipsum. Proin dictum, 
-                                    risus vel lacinia tempor, risus lectus porttitor tortor, id mollis dolor ex in nunc. Vestibulum 
-                                    placerat sodales venenatis.</p>
-                            </div>
-
-                        </div>
-                </div>
-            </section>
+<!-- /.container-fluid -->
 
 
+    
+    <section class="page-section" id="capoeiraangola">
 
-<!-- Tähän loppuu Capoiera Angola, Maestro Valmis + ehkä jotain mutta/ kuva ja teksti -->
+      <div class="container">
+        <div class="row">
 
+            <div class="col-md-2">
+              <h1>Capoeira Angolaa Helsingissä</h1>
+            </div>
 
-
-<!-- Tästä alkaa kuvagalleria -->
-
-        <section class="page-section" id="kuvagalleria">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <h1>Kuvagalleria</h1>
-                        
-                    <div class="col-md">
-                
-                         <div class="gallery">
-                            <a target="_blank" href="IMG_3964.jpg">
-                              <img class="img-fluid" src="IMG_3964.jpg" alt="Capoiera1" width="auto" height="auto">
-                            </a>
-                         </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_3976.jpg">
-                              <img class="img-fluid" src="IMG_3976.jpg" alt="Capoiera2" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_5469.jpg">
-                              <img class="img-fluid" src="IMG_5469.jpg" alt="Capoiera3" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_5537.jpg">
-                              <img class="img-fluid" src="IMG_5537.jpg" alt="Capoiera4" width="auto" height="auto">
-                            </a>
-                    </div>
-                            
-                          </div>
-
-                        <div class="col-md">
-
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_3964.jpg">
-                              <img class="img-fluid" src="IMG_3964.jpg" alt="Capoiera5" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_3976.jpg">
-                              <img class="img-fluid" src="IMG_3976.jpg" alt="Capoiera6" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_5469.jpg">
-                              <img class="img-fluid" src="IMG_5469.jpg" alt="Capoiera7" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_5537.jpg">
-                              <img class="img-fluid" src="IMG_5537.jpg" alt="Capoiera8" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                        </div>
-
-                        <div class="col-md">
-
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_3964.jpg">
-                              <img class="img-fluid" src="IMG_3964.jpg" alt="Capoiera9" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_3976.jpg">
-                              <img class="img-fluid" src="IMG_3976.jpg" alt="Capoiera10" width="auto" height="auto">
-                            </a>
-                           
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_5469.jpg">
-                              <img class="img-fluid" src="IMG_5469.jpg" alt="Capoiera11" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                          
-                          <div class="gallery">
-                            <a target="_blank" href="IMG_5537.jpg">
-                              <img class="img-fluid" src="IMG_5537.jpg" alt="Capoiera12" width="auto" height="auto">
-                            </a>
-                            
-                          </div>
-                        
-                    </div>
-                </div>
-
-<!--  
-                         <div class="row photos">
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5537.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5537.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5469.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5469.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3976.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3976.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3964.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3964.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3964.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3964.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5469.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5469.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3976.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3976.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3964.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3964.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5537.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5537.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5469.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5469.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3976.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3976.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3964.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3964.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5469.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5469.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3976.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3976.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3964.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3964.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5469.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5469.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5469.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5469.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_3976.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_3976.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5469.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5469.jpg"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="IMG_5537.jpg" data-lightbox="photos"><img class="img-fluid" src="IMG_5537.jpg"></a></div>
-                         </div>
-                    </div>
-                </div>-->
-
-                
-            </section>
-
-<!-- Tähän loppuu kuvagalleria -->
-
-<section class="page-section" id="treenit">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-
-            <div class="col-8">
-                <h1>Treeni</h1>
-                <p>Tästä alkaa treenit teksti... </p>
+            <div class="col-md-10">
+              <h2>FICA-Helsinki on Helsingissä toimiva Capoeira Angola ryhmä. Ryhmä aloitti toimintansa vuonna 1997 nimellä Grupo de Capoeira Angola Engenho Velho. 
+              Vuonna 2004 ryhmä aloitti yhteistyön Mestre Valmirin ( FICA-Bahia) kanssa. Yhteistyön tuloksena ryhmä liittyi FICAan (Fundação Internacional de Capoeira Angola) 
+              syksyllä 2008. FICA-Helsinki järjestää Capoeira Angolan opetusta ja avoimia workshoppeja kaikille lajista kiinnostuneille. Ryhmämme on sitoutunut turvallisemman 
+              tilan periaatteisiin.</h2>
             </div>
 
         </div>
+      </div>
+
+    </section>
+
+<!-- /.container -->
+
+
+    <section class="page-section" id="ficahelsinki">
+
+      <img src="IMG_3976.jpg" class="img-fluid" alt="Capoeira Helsinki" />
+
+      <div class="container-fluid">
+        <div class="row">
+
+        <div class="col-2">
+          col
+        </div>
+
+        <div class="col-8" style="background-color: #e5e5e5; height: 200px;">
+          <h3>FICA-Helsinki on Helsingissä toimiva Capoeira Angola ryhmä.</h3>
+          <p>Ryhmä aloitti toimintansa vuonna 1997 nimellä Grupo de Capoeira Angola Engenho Velho. Vuonna 2004 ryhmä aloitti yhteistyön Mestre Valmirin (FICA-Bahia) kanssa. Yhteistyön tuloksena ryhmä liittyi FICAan (Fundação Internacional de Capoeira Angola) syksyllä 2008. FICA-Helsinki järjestää Capoeira Angolan opetusta ja avoimia workshoppeja kaikille lajista kiinnostuneille. Ryhmämme on sitoutunut turvallisemman tilan periaatteisiin.</p>
+        </div>
+
+        <div class="col-2">
+          col
+        </div>
+
+      </div>
+
     </div>
 
+    </section>
 
-</section>
+    <section class="page-section" id="fica">
 
+      <div class="container-fluid">
+        <div class="row">
 
+          <div class="row">
 
-<!-- Tästä alkaa footer -->
-
-
-<!-- Tähän loppuu footer -->
-
+            <div class="col-2">
+              col
+            </div>
     
+            <div class="col-8">
+              <h3>Vuonna 1995 perustettu Fundação Internacional de Capoeira Angola (FICA) edustaa ja vaalii afro-brasilialaista lajia Capoeira Angolaa.</h3> 
+              <br>
+              <p>Ryhmä aloitti toimintansa vuonna 1997 nimellä Grupo de Capoeira Angola Engenho Velho. Vuonna 2004 ryhmä aloitti yhteistyön Mestre Valmirin (FICA-Bahia) kanssa. Yhteistyön tuloksena ryhmä liittyi FICAan (Fundação Internacional de Capoeira Angola) syksyllä 2008. FICA-Helsinki järjestää Capoeira Angolan opetusta ja avoimia workshoppeja kaikille lajista kiinnostuneille. Ryhmämme on sitoutunut turvallisemman tilan periaatteisiin.</p>
     
+            </div>
+    
+            <div class="col-2">
+    
+            </div>
+    
+          </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    
-    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        </div>
 
+      </div>
+
+    </section>
+
+
+<!-- 
     
-    <script src="function.js"></script>
+    <footer>
+        <div class="container-fluid" id="yhteystiedot" style="background-color: #FFC107; height: 200px">
+            <div class="row">
+
+                <div class="col">
+                    
+
+                    <div class="icons" style="text-align: center;">
+
+                      <a class="icons py-5 mr-3" role="button" href="https://www.instagram.com/ficahelsinki/"><i class="fab fa-instagram"></i></a>
+
+                      <a class="icons py-5 mr-3" role="button" href="https://www.facebook.com/groups/44118397001/"> <i class="fab fa-facebook"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer> -->
+
+<!-- Footer -->
+
+
+<!-- Optional JavaScript; choose one or two! -->
     
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   
+<!-- Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="functions.js"></script>
 </body>
 </html>
